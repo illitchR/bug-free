@@ -1,0 +1,61 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#4b0082 40%, #560591b7 90% );
+}
+
+.card-ini{
+    width: 800px;
+    height: 500px;
+    background: rgb(33, 43, 66);
+    border-radius: 5pc;
+    display: flex;
+}
+
+.cardus img{
+    width: 150px;
+    
+}
+.icon{ 
+    border-radius: 100px;
+    width: 10px;
+    }
+.cardus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 2pc;
+    color: aliceblue;
+}
+h1{
+    color:aliceblue
+}
+.card-cont{display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 5px solid #560591b7;
+    padding: 30px;
+    color: aliceblue;
+    gap: 5pc;
+}
+
+button{background: linear-gradient( #bfd2ddda 20%, #560591b7 100%);
+    color: rgb(252, 252, 252);
+    width: 300px;
+    height: 40px;
+    border: 0.1px;
+    border-radius: 3pc;
+}
+
+
+
+
+

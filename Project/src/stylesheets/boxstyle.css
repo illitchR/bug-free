@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+    /*Encabezado*/
+
+header{
+    background: #030303;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Jersey 25";
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+h1{
+    font-size: 40px;
+    color: #ffff;
+}
+
+    /* Body */
+    body{background-color: #030303;}
+
+/*main*/
+main{display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+a{ color: #ffff;}
+
+    /*Tarjeta*/
+
+.container-tarjeta{
+    width: 200px;
+    height: 300px;
+    border: 0.1px solid #dd0505;
+    border-radius: 15px;
+    background: #ffffff7e;
+}
+.target-bg{width: 198px;
+    height: 150px;
+    background: #030303;
+    border: 0.1px solid #dd0505;
+    border-radius: 15px;
+}
+
+/* container 1*/
+.container-1{
+    padding: 50px 0 0 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    width: 900px;
+    gap: 15px;
+}
+    /*Webkits*/
+::-webkit-scrollbar{
+    background: #030303;
+}
+::-webkit-scrollbar-thumb{
+    background: #dd0505;
+}
+
+/*container 2*/
+
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 15px;
+}
+
+    /*Footer*/
+
+footer{display: flex;
+justify-content: space-between;
+margin: 25px}
+
+.listasdiv{
+color: #ffff;
+display: flex;
+gap: 1pc;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 8px;
+}
+h2{font-size: 35px;
+}
+img{width: 10pc;}

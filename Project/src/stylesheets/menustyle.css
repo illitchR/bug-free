@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+    /*Body*/
+
+body{
+    background: top / cover fixed  url(../Img/backcafe.jpg);
+}
+
+    /*main*/
+main{display: flex;
+    flex-direction: column;
+    padding: 40px 0;}
+
+    /*Texto*/
+h2{margin:  20px auto -10px auto  ;
+color: #ffff;
+font-size: 50px;}
+
+    /*dimensiones del menu*/
+
+.menus{
+    background: top / cover fixed url(../Img/fondotablas.jpg);
+    border: 5px solid rgb(54, 11, 58);
+    border-radius: 80px;
+    display: flex;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 5px black solid;
+}
+    /*dimensiones de las Tablas*/
+table{ margin: 0 auto;
+width: 20pc ;
+}
+/*Bordes*/
+.tabcafe{border-top: 5px black solid;}
+
+.tabpostre{border-bottom: 5px black solid;}
+
+th{font-size: 25px;
+margin: auto;
+}
+
+tr{display:flex;
+justify-content: space-between;
+gap: 30px;}
+
+    /*Iconos*/
+
+img{border-radius: 300px;
+display: flex;
+justify-content: center;
+width: 70px;
+height: 60px;
+margin: 20px  auto}

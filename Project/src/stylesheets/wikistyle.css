@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+header{
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.911);
+    justify-content: space-between;
+    
+}
+
+.list{
+    width: 40PX;
+    padding: 25px;
+}
+
+.search{
+    width: 40PX;
+    padding: 25px;
+}
+
+.logo{
+    width: 200PX;
+}
+
+/*Main*/
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px  ;
+}
+
+.icon0{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    padding: 10px  ;
+}
+
+
+
+
