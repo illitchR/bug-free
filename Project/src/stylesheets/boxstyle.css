@@ -49,9 +49,10 @@ a{ color: #ffff;}
 }
 .target-bg{width: 198px;
     height: 150px;
-    background: #030303;
+    background: cover #030303;
     border: 0.1px solid #dd0505;
     border-radius: 15px;
+    
 }
 
 /* container 1*/
